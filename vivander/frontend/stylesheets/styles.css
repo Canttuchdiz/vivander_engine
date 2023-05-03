@@ -1,0 +1,78 @@
+#cant {
+    border-radius: 100px;
+    padding: 15px;
+    outline-style: solid;
+    color: white;
+}
+
+nav {
+    position: fixed;
+}
+
+#cant:hover {
+    color: black;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#bg {
+    position: fixed;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*filter: blur(3px);*/
+    transform: scale(1.05);
+}
+
+
+#main h1 {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+    text-align: center;
+}
+
+.ispace {
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*border: 1px solid red;*/
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.image1 {
+    height: 200px;
+    width: auto;
+    border: 3px solid black;
+}
+
+.image1:hover {
+    border: 3px solid white;
+}
+
+.image2 {
+    height: 200px;
+    width: auto;
+    border: 3px solid black;
+    transform: translate(0, 10%);
+}
+
+.image2:hover {
+    border: 3px solid white;
+}
